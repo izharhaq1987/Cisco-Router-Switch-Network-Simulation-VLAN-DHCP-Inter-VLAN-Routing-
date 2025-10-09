@@ -42,6 +42,7 @@ The switch’s access ports are mapped to specific VLANs, while the router’s s
        |   Ubuntu VM |
        | DHCP Client |
        +-------------+
+
 **Author:**  
 **Izhar Haq**  
 Senior Electrical & Software Engineer
