@@ -21,28 +21,13 @@ The link between router and switch operates in **802.1Q trunk mode**, tagging pa
 The switch’s access ports are mapped to specific VLANs, while the router’s subinterfaces handle Layer 3 routing per VLAN.  
 
 ---
+## 🧩 Diagram Description
 
-## 🧩 Diagram Description  
- +------------------------+
- |      Cisco Router      |
- |  GigabitEthernet0/0.10 |
- |   IP: 192.168.100.1    |
- +-----------+------------+
-             |
-             | Trunk (802.1Q)
-             |
- +-----------+------------+
- |      Cisco Switch       |
- | VLAN 10: STAFF          |
- | VLAN 20: GUEST          |
- +-----------+-------------+
-             |
-             | Access Port (VLAN 10)
-             |
-       +-------------+
-       |   Ubuntu VM |
-       | DHCP Client |
-       +-------------+
+| **Device**       | **Interface**         | **IP Address**     | **Role / Function**              | **Connection**          |
+|------------------:|----------------------:|-------------------:|---------------------------------:|------------------------:|
+| **Cisco Router**  | GigabitEthernet0/0.10 | 192.168.100.1      | Inter-VLAN Routing & DHCP Server | Trunk (802.1Q) to Switch |
+| **Cisco Switch**  | FastEthernet0/1–2     | –                  | VLAN Segmentation (STAFF & GUEST) | Access Ports to VLANs    |
+| **Ubuntu VM**     | ens33                 | DHCP Assigned (192.168.100.x) | End Device / DHCP Client | VLAN 10 Access Port     |
 
 **Author:**  
 **Izhar Haq**  
