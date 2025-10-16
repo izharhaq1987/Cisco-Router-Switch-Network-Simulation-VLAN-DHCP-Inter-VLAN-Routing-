@@ -6,7 +6,7 @@ Simulated Cisco Router &amp; Switch network with VLAN, DHCP, and inter-VLAN rout
 
 ---
 
-## 🧭 Overview  
+##  Overview  
 This repository demonstrates a **Router-on-a-Stick** configuration using a **Cisco 1841 Router**, **Catalyst Switch**, and an **Ubuntu Virtual Machine**.  
 The goal was to simulate **Layer 2 and Layer 3 integration**, ensuring proper **VLAN segmentation, DHCP automation**, and **inter-VLAN communication** in a hybrid physical/virtual topology.  
 
@@ -16,7 +16,7 @@ The configuration and troubleshooting were performed using real Cisco IOS consol
 
 ---
 
-## ⚙️ Reasoning Outline  
+##  Reasoning Outline  
 
 1. **Objective Definition:**  
    Segment a single physical LAN into multiple subnets using VLANs, then restore communication through router subinterfaces.  
@@ -39,7 +39,7 @@ The configuration and troubleshooting were performed using real Cisco IOS consol
 
 ---
 
-## 🧩 Key Commands Snapshot  
+##  Key Commands Snapshot  
 
 ```bash
 # On Router
