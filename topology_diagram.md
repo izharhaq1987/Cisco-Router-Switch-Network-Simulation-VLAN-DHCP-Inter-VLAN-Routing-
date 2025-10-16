@@ -1,10 +1,10 @@
-# 🗺️ Network Topology Diagram  
+#  Network Topology Diagram  
 *(Cisco Router + Catalyst Switch + Ubuntu VM on 192.168.100.0/24 Network)*  
 ![Network Topology Diagram](images/Network_Topology_Diagram.png)
 
 ---
 
-## ⚙️ Reasoning Outline  
+##  Reasoning Outline  
 
 This topology illustrates a **Router-on-a-Stick (RoaS)** implementation where a single physical interface on the **Cisco 1841 Router** handles multiple VLANs through subinterfaces.  
 The purpose was to **segment broadcast domains** for performance and management while maintaining **Layer 3 connectivity** between them.
@@ -21,7 +21,7 @@ The link between router and switch operates in **802.1Q trunk mode**, tagging pa
 The switch’s access ports are mapped to specific VLANs, while the router’s subinterfaces handle Layer 3 routing per VLAN.  
 
 ---
-## 🧩 Diagram Description
+##  Diagram Description
 
 | **Device**       | **Interface**         | **IP Address**     | **Role / Function**              | **Connection**          |
 |------------------:|----------------------:|-------------------:|---------------------------------:|------------------------:|
