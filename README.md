@@ -11,6 +11,8 @@ This repository demonstrates a **Router-on-a-Stick** configuration using a **Cis
 The goal was to simulate **Layer 2 and Layer 3 integration**, ensuring proper **VLAN segmentation, DHCP automation**, and **inter-VLAN communication** in a hybrid physical/virtual topology.  
 
 The configuration and troubleshooting were performed using real Cisco IOS consoles and Ubuntu terminal sessions, mirroring enterprise lab conditions.  
+**View the detailed topology and reasoning:**  
+[View Network Topology Diagram →](topology_diagram.md)
 
 ---
 
