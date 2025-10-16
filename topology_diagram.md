@@ -1,5 +1,6 @@
 # 🗺️ Network Topology Diagram  
 *(Cisco Router + Catalyst Switch + Ubuntu VM on 192.168.100.0/24 Network)*  
+![Network Topology Diagram](images/Network_Topology_Diagram.png)
 
 ---
 
